@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19, 20, 25);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    font-size: 20rem;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    height: 85px;
+    background-color: rgb(28, 20, 29);
+
+}
+
+.left {
+    font-size: 3rem;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0;
+    align-items: normal;
+}
+
+.leftSection {
+
+    width: 34px;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.leftSection .btn {
+
+    background-color: #1e2167;
+    padding: 10px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: -30px;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 25rem;
+}
+
+.purple {
+    color: rgb(170, 107, 228)
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+    font-size: 1rem;
+
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: #4d2602;
+    width: 80vw;
+    height: 2px;
+    display: flex;
+    margin: 56px 0;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+footer {
+    background-color: rgb(19, 20, 25);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.contact {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4d2602;
+    margin-left: 4rem;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 3rem !important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 3rem !important;
+}
+
+.con-box {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20rem;
+
+}
+
+.footer>div {
+    width: 223px;
+
+}
+
+
+
+footer .footer-rights {
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+}
+
+.leftSection .buttons {
+    padding: 50px;
+}
+
+.quali-category {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.quali-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #4d2602;
+
+}
+
+.quali-text {
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0 4rem 0 0 !important;
+    margin-left: 4rem;
+
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.info{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
