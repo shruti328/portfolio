@@ -16,8 +16,8 @@ nav {
     align-items: center;
     font-weight: 800;
     height: 85px;
-    background-color: rgb(28, 20, 29);
 
+    background-color: rgb(5, 5, 29)
 }
 
 .left {
@@ -131,15 +131,12 @@ footer {
     border-radius: 10px;
     color: white;
     margin-left: 20rem;
-
 }
 
 .footer>div {
     width: 223px;
 
 }
-
-
 
 footer .footer-rights {
     text-align: center;
@@ -163,7 +160,6 @@ footer .footer-rights {
     font-weight: 800;
     font-size: 3rem;
     color: #4d2602;
-
 }
 
 .quali-text {
@@ -184,8 +180,134 @@ footer .footer-rights {
     margin-right: -15px;
     margin-left: -15px;
 }
-.info{
+
+.info {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width:455px) {
+   
+    nav {
+        display: flex;
+        font-size: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 700;
+        height: 130px;
+        background-color: rgb(19, 20, 25);
+        
+    }
+    .left {
+        font-size: 3.5rem;
+        font-family: Montserrat, sans-serif;
+        font-weight: 800;
+        margin-top: 3.5rem;
+        text-align: center;
+        margin-left: 12rem;
+    
+    }
+
+    footer {
+       height: 38rem;
+        background-color: rgb(19, 20, 25);
+    }
+    
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+        margin-top: 100rem;
+    }
+    .leftSection .btn {
+        background-color: #1e2167;
+        padding: 10px;
+        color: white;
+        border: 4px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: -3rem;
+        margin-top: -5px;
+       
+    }
+
+    .rightSection img {
+    
+       
+        margin-top: 1rem;
+    }
+    /* quali */
+   
+    .quali-head {
+        font-size:2rem;
+        margin-left:0rem;
+    }
+    .quali-category {
+       
+        font-size:1.4rem;
+        margin-left:0rem;
+    }
+ 
+    .quali-text {
+        margin-left:0rem;
+    }
+    /* quali */
+   
+  
+
+    /* contact */
+    .large-contact {
+        display:none;
+    }
+    .medium-contact {
+        display:block;
+    }
+    .contact-sec {
+        margin-top:2rem;
+        margin-bottom:5rem;
+    }
+    .contact-head {
+        font-size:2.5rem;
+        margin-left:-10px;
+        margin-top: 45rem;
+    }
+    .contact-text {
+        font-size:1.4rem;
+        margin-left:0;
+    }
+    .first-con-col {
+        margin-left:-px;
+    }
+    .med-con-col {
+        padding:0 3rem !important;
+        margin-bottom:25px;
+        margin-left:-200rem;
+    }
+    /* contact */
+    .mb-5,
+    .my-5 {
+        margin-bottom: 3rem !important;
+    }
+    
+    .mt-5,
+    .my-5 {
+        margin-top: 3rem !important;
+    }
+    
+    .con-box {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 4rem;
+        border-radius: 10px;
+        color: white;
+        margin-left: 20rem;
+    }
+    footer .footer-rights {
+       text-align: center;
+        color: white;
+        padding: 12px 0;
+        margin-left: 17rem;
+
+    }
+    
+}
